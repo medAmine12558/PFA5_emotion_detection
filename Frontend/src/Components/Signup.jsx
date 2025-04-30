@@ -104,15 +104,11 @@ export function Signup() {
             type="submit"
             className="w-full bg-purple-800 text-white py-3 rounded-md mb-4"
           >
-            SE CONNECTER
+            S'INSCRIRE
           </button>
         </form>
 
-        <div className="text-center">
-          <Link to="/Signin" className="text-teal-600">
-            Vous n'avez pas de compte ?
-          </Link>
-        </div>
+        
       </div>
     </div>
   );

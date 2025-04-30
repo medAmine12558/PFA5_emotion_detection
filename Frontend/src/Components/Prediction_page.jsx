@@ -54,6 +54,9 @@ export function Predection_Page(){
     })
   },[photo])
 
+  if(prediction){
+    console.log(prediction)
+  }
   const handleDrop = (e) => {
     e.preventDefault();
     setIsDragging(false);
